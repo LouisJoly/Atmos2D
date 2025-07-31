@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Atmos2D.Core</RootNamespace>
+    <EnableNetAnalyzers>true</EnableNetAnalyzers>
+    <AnalysisMode>All</AnalysisMode>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Atmos2D.ECS\Atmos2D.ECS.csproj" />
+    <ProjectReference Include="..\Atmos2D.Graphics\Atmos2D.Graphics.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Raylib-cs" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>

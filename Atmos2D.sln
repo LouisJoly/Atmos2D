@@ -1,0 +1,47 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atmos2D.ECS", "Atmos2D.ECS\Atmos2D.ECS.csproj", "{GUID_ECS_PROJECT}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atmos2D.Graphics", "Atmos2D.Graphics\Atmos2D.Graphics.csproj", "{GUID_GRAPHICS_PROJECT}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atmos2D.Core", "Atmos2D.Core\Atmos2D.Core.csproj", "{GUID_CORE_PROJECT}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atmos2D.GameExample", "Atmos2D.GameExample\Atmos2D.GameExample.csproj", "{GUID_GAMEEXAMPLE_PROJECT}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{GUID_ECS_PROJECT}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID_ECS_PROJECT}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID_ECS_PROJECT}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID_ECS_PROJECT}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{GUID_GRAPHICS_PROJECT}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID_GRAPHICS_PROJECT}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID_GRAPHICS_PROJECT}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID_GRAPHICS_PROJECT}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{GUID_CORE_PROJECT}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID_CORE_PROJECT}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID_CORE_PROJECT}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID_CORE_PROJECT}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{GUID_GAMEEXAMPLE_PROJECT}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{GUID_GAMEEXAMPLE_PROJECT}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{GUID_GAMEEXAMPLE_PROJECT}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{GUID_GAMEEXAMPLE_PROJECT}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {YOUR_SOLUTION_GUID}
+	EndGlobalSection
+EndGlobal
